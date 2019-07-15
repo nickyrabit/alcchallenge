@@ -11,20 +11,24 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/alc_challenge_1"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:layout_marginTop="30dp"
             android:id="@+id/buttonToActivityB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/to_activity_b"/>
         <Button
+            android:layout_marginTop="30dp"
             android:id="@+id/buttonToActivityC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
