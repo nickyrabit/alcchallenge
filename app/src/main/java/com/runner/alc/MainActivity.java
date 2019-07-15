@@ -24,7 +24,8 @@ Button atoB_Button, btoC_Button;
             @Override
             public void onClick(View v) {
 
-
+Intent i = new Intent(MainActivity.this, ActivityB.class);
+startActivity(i);
             }
         });
 
@@ -33,6 +34,8 @@ Button atoB_Button, btoC_Button;
             @Override
             public void onClick(View v) {
 
+                Intent i = new Intent(MainActivity.this, ActivityC.class);
+                startActivity(i);
             }
         });
     }
