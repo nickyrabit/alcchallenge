@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal">
 
 
     <ImageView
         android:id="@+id/profileImage"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/profile_not"/>
 
     <TextView
         android:id="@+id/username"
+        android:textAlignment="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/name_nicholaus_ngailo_legnard"
+        />
 
     <TextView
         android:id="@+id/track"
+        android:textAlignment="center"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/android_track"/>
@@ -23,12 +34,17 @@
     <TextView
         android:id="@+id/country"
         android:layout_width="match_parent"
+        android:textAlignment="center"
+
+        android:layout_margin="10dp"
+
         android:layout_height="wrap_content"
         android:text="@string/tanzania"/>
 
 
     <TextView
         android:id="@+id/email"
+        android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nicky_nickylegnard_com"/>
@@ -37,5 +53,8 @@
         android:id="@+id/phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:textAlignment="center"
         android:text="@string/_255_685_097_713"/>
 </LinearLayout>
